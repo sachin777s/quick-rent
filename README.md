@@ -1,8 +1,42 @@
-# React + Vite
+# QuickRent - Gadget Renting Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+**QuickRent** is a platform for rent your gadgets and get gadgets on rent.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Gadgets Listing**
+- **Contact US**
+- **Quick Delivery**
+- **Affordable Pricing**
+- **Wide Variety of Gadgets**
+
+## Technology Stack
+
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
+
+## Live Demo
+
+👉 [QuickRent Live](https://quickrent1.vercel.app)
+
+## Installation
+
+To run the project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sachin777s/quickrent.git
+   cd quickrent
+
+## Authors
+
+- [@sachin777s](https://www.github.com/sachin777s)
+
+
+               
+                                 
+                                                  
+                                                  
