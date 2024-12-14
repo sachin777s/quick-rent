@@ -60,7 +60,7 @@ const Navbar = () => {
 
       {/* Sliding Mobile Menu */}
       <div
-        className={`h-screen sm:hidden bg-white shadow-md fixed top-[65px] left-0 w-full transition-transform duration-300 ${
+        className={`h-screen sm:hidden bg-white shadow-md fixed top-[65px] left-0 w-full z-[200] transition-transform duration-300 ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
