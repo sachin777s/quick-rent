@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
+import FeaturesSection from "./components/Features";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <main className="max-w-[1680px] mx-auto">
         <HeroSection />
+        <FeaturesSection/>
       </main>
     </main>
   );
