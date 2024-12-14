@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import FeaturesSection from "./components/Features";
 import Gadgets from "./components/Gadgets";
+import ContactUs from "./components/ContactUs";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <HeroSection />
         <FeaturesSection/>
         <Gadgets/>
+        <ContactUs/>
       </main>
     </main>
   );
