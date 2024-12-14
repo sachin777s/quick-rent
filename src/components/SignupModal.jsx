@@ -19,7 +19,7 @@ const SignupModal = ({ setIsSignupModalOpen }) => {
   }, []);
 
   return (
-    <div className="absolute top-0 left-0 w-screen h-screen backdrop-brightness-50 z-10 flex items-center justify-center">
+    <div className="absolute top-0 left-0 w-screen h-screen backdrop-brightness-50 z-50 flex items-center justify-center">
       <div
         ref={modalRef}
         className="px-2 sm:px-4 py-8 min-w-[22rem] w-[40%] bg-white rounded-2xl relative"
