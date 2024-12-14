@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import FeaturesSection from "./components/Features";
+import Gadgets from "./components/Gadgets";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <main className="max-w-[1680px] mx-auto">
         <HeroSection />
         <FeaturesSection/>
+        <Gadgets/>
       </main>
     </main>
   );
