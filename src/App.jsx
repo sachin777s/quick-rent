@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection";
 import FeaturesSection from "./components/Features";
 import Gadgets from "./components/Gadgets";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <FeaturesSection/>
         <Gadgets/>
         <ContactUs/>
+        <Footer/>
       </main>
     </main>
   );
