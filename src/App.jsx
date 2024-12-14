@@ -13,10 +13,10 @@ const App = () => {
       <Navbar />
       <main className="max-w-[1680px] mx-auto">
         <HeroSection />
-        <FeaturesSection/>
-        <Gadgets/>
-        <ContactUs/>
-        <Footer/>
+        <FeaturesSection />
+        <Gadgets />
+        <ContactUs />
+        <Footer />
       </main>
     </main>
   );

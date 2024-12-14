@@ -3,17 +3,21 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="relative bg-[var(--main-color)] text-white">
-      {/* Hero Section Background Image */}
-      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(https://cdn.pixabay.com/photo/2021/11/16/15/35/electronics-6801339_640.jpg)` }}></div>
-      
-      {/* Hero Content */}
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{
+          backgroundImage: `url(https://cdn.pixabay.com/photo/2021/11/16/15/35/electronics-6801339_640.jpg)`,
+        }}
+      ></div>
+
       <div className="relative z-10 min-h-[calc(100vh-60px)] flex items-center justify-center text-center px-4 sm:px-6 lg:px-8">
         <div className="space-y-6">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight">
             Rent Gadgets, Anytime, Anywhere
           </h1>
           <p className="text-lg sm:text-xl mb-6">
-            Explore the best deals for renting electronics, gadgets, and more! Convenient, affordable, and at your fingertips.
+            Explore the best deals for renting electronics, gadgets, and more!
+            Convenient, affordable, and at your fingertips.
           </p>
           <a
             href="#explore"

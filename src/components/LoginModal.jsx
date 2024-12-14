@@ -17,7 +17,10 @@ const LoginModal = ({ setIsLoginModalOpen }) => {
 
   return (
     <div className="absolute top-0 left-0 w-screen h-screen backdrop-brightness-50 z-50 flex items-center justify-center">
-      <div ref={modalRef} className="py-8 min-w-[22rem] w-[40%] bg-white rounded-2xl relative">
+      <div
+        ref={modalRef}
+        className="py-8 min-w-[22rem] w-[40%] bg-white rounded-2xl relative"
+      >
         <button
           onClick={() => setIsLoginModalOpen(false)}
           className="p-2 w-10 h-10 text-2xl border-2  border-black rounded-full absolute right-5 top-5 flex items-center justify-center opacity-60"
@@ -27,7 +30,6 @@ const LoginModal = ({ setIsLoginModalOpen }) => {
         <h1 className="text-center text-3xl">Login</h1>
         <form className="mx-auto w-[90%]">
           <div className="space-y-4">
-            {/* Email Input */}
             <div>
               <label
                 htmlFor="email"
@@ -43,7 +45,6 @@ const LoginModal = ({ setIsLoginModalOpen }) => {
                 className="appearance-none w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[var(--main-color)] focus:border-[var(--main-color)] sm:text-sm"
               />
             </div>
-            {/* Password Input */}
             <div>
               <label
                 htmlFor="password"
@@ -60,7 +61,6 @@ const LoginModal = ({ setIsLoginModalOpen }) => {
               />
             </div>
           </div>
-          {/* Remember Me & Forgot Password */}
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <input
@@ -85,7 +85,6 @@ const LoginModal = ({ setIsLoginModalOpen }) => {
               </a>
             </div>
           </div>
-          {/* Submit Button */}
           <div>
             <button
               type="submit"

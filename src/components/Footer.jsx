@@ -6,9 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-[var(--main-color)] text-white py-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Top Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center space-y-8 lg:space-y-0 lg:items-start">
-          {/* About Section */}
           <div className="max-w-lg text-center lg:text-left">
             <h3 className="text-2xl font-semibold">QuickRent</h3>
             <p className="mt-2 text-sm">
@@ -18,7 +16,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Links Section */}
           <div className="flex flex-col text-center lg:text-left space-y-4 lg:space-y-0 lg:space-x-16 lg:flex-row">
             <div>
               <h4 className="font-semibold text-lg">Quick Links</h4>
@@ -88,7 +85,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Social Media Section */}
           <div className="text-center lg:text-right">
             <h4 className="font-semibold text-lg">Follow Us</h4>
             <div className="mt-4 flex justify-center lg:justify-end space-x-4">
@@ -124,7 +120,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section */}
         <div className="mt-8 border-t border-gray-200 pt-4 text-center text-sm text-gray-300">
           <p>© {new Date().getFullYear()} QuickRent. All rights reserved.</p>
         </div>

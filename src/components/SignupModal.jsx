@@ -32,7 +32,6 @@ const SignupModal = ({ setIsSignupModalOpen }) => {
         </button>
         <h1 className="text-center text-3xl">Sign up</h1>
         <form className="space-y-6">
-          {/* Full Name */}
           <div>
             <label
               htmlFor="fullName"
@@ -50,7 +49,6 @@ const SignupModal = ({ setIsSignupModalOpen }) => {
             />
           </div>
 
-          {/* Email Address */}
           <div>
             <label
               htmlFor="email"
@@ -67,7 +65,6 @@ const SignupModal = ({ setIsSignupModalOpen }) => {
               placeholder="Enter your email"
             />
           </div>
-          {/* Mobile Number */}
           <div>
             <label
               htmlFor="mobile"
@@ -105,7 +102,6 @@ const SignupModal = ({ setIsSignupModalOpen }) => {
             />
           </div>
 
-          {/* Confirm Password */}
           <div>
             <label
               htmlFor="confirmPassword"
@@ -125,7 +121,6 @@ const SignupModal = ({ setIsSignupModalOpen }) => {
             />
           </div>
 
-          {/* Password Mismatch Error (Optional) */}
           {password && confirmPassword && password !== confirmPassword && (
             <p className="text-sm text-red-600">Passwords do not match</p>
           )}

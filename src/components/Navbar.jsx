@@ -17,7 +17,6 @@ const Navbar = () => {
   return (
     <header className="w-full">
       <nav className="py-2 px-2 sm:px-4 mx-auto max-w-[1680px] h-[65px] shadow-md flex items-center justify-between">
-        {/* Logo and Brand Name */}
         <div className="flex items-center gap-2">
           <img
             className="w-[40px] sm:w-[50px]"
@@ -27,7 +26,6 @@ const Navbar = () => {
           <span className="font-semibold text-xl sm:text-2xl">QuickRent</span>
         </div>
 
-        {/* Toggle Button for Mobile */}
         <div className="sm:hidden flex items-center">
           <button
             className="text-[var(--main-color)] text-lg font-semibold"
@@ -41,7 +39,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Desktop Buttons */}
         <div className="hidden sm:flex items-center gap-2">
           <button
             onClick={() => setIsLoginModalOpen(true)}
@@ -58,7 +55,6 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Sliding Mobile Menu */}
       <div
         className={`h-screen sm:hidden bg-white shadow-md fixed top-[65px] left-0 w-full z-[200] transition-transform duration-300 ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
@@ -76,8 +72,8 @@ const Navbar = () => {
           </button>
           <button
             onClick={() => {
-              setIsMenuOpen(false)
-              setIsSignupModalOpen(true)
+              setIsMenuOpen(false);
+              setIsSignupModalOpen(true);
             }}
             className="min-w-[14rem] px-4 py-2 rounded-md border-2 border-[var(--main-color)] text-white bg-[var(--main-color)] text-center transition-all duration-300 hover:bg-white hover:text-[var(--main-color)] active:scale-95"
           >
